@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/nragland37/Student-Time-Analysis-Tool/blob/main/LICENSE)
 
 <h1 align="center">
-  Student Time Analysis
+  Event Planning Analysis Tool
 </h1>
 
 <p align="center">
@@ -14,7 +14,7 @@
   <a href="https://nragland37.shinyapps.io/timeanalysis/" target="_blank"><b>Live Application</b></a> 
 </p>
 
-This application visualizes student availability during breaks between classes using interactive heatmaps. It helps identify periods when students are free, enabling institutions to optimize event timing and boost student involvement. The tool features a variety of filtering options to target specific groups, such as departments or degree programs, allowing for tailored event planning for different groups of students.  
+This application visualizes student availability during breaks between classes using interactive heatmaps. It helps identify periods when students are free, enabling organizations to optimize event timing and boost involvement. The tool features a variety of filtering options to target specific groups, such as departments or degree programs, allowing for tailored event planning for different groups of students.  
 
 ## Features
 
@@ -66,7 +66,7 @@ install.packages(c("tidyverse", "hms", "lubridate", "viridis", "shiny", "plotly"
    ```
 
 > [!IMPORTANT]  
->  To protect privacy, the original CSV file is not included. Create `student_data.csv` and place it in the same directory as `global.R` with the following format:
+>  To protect privacy, the original CSV file is not included. Create your own `student_data.csv` and place it in the same directory as `global.R` with the following format:
 > ```
 > id, sess, yr, cl, major1_majortext, major1_conctext, crs_dept, days, beg_tm, end_tm, beg_date, end_date
 > 123456, FA, 2023, SO, Business Administration, Finance, BUSN, --M-W-F-, 0900, 0950, 2023-01-16, 2023-05-12
