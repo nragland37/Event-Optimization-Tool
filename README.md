@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/nragland37/Student-Time-Analysis-Tool/blob/main/LICENSE)
 
 <h1 align="center">
-  Event Planning Analysis Tool
+  Event Optimization Tool
 </h1>
 
 <p align="center">
